@@ -1,0 +1,20 @@
+{
+  "name": "html2-pixellab-handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./scss/app.scss ./css/style.css",
+    "minify": "sass ./scss/app.scss ./css/style.css --style compressed" ,
+    "watch": "sass --watch ./scss/app.scss:./css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaOlaru1/html2-pixellab-handson/issues"
+  },
+  "homepage": "https://github.com/MariaOlaru1/html2-pixellab-handson#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

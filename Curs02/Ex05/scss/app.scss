@@ -19,3 +19,39 @@
     }
   }
 }
+
+@for $i from 1 through 9 {
+  .box-0#{$i} {
+    @if $i == 2 {
+      border: 2px solid red;
+    }
+
+    @if $i == 3 {
+      border: 3px solid green;
+    }
+
+    @if $i == 4 {
+      border: 4px solid;
+    }
+
+    @if $i == 5 {
+      border: 5px solid;
+    }
+
+    @if $i == 6 {
+      border: 6px solid;
+    }
+
+    @if $i == 7 {
+      border: 7px solid;
+    }
+
+    @if $i == 8 {
+      border: 8px solid;
+    }
+
+    @if $i == 9 {
+      border: 9px solid;
+    }
+  }
+}

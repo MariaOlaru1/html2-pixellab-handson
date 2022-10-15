@@ -30,3 +30,12 @@
     }
   }
 }
+
+@for $i from 1 through 9 {
+  .box-0#{$i} {
+    @if $i == 2 {
+      width: 155px;
+      height: 155px;
+    }
+  }
+}

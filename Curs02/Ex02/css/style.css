@@ -8,6 +8,11 @@
   color: blue;
 }
 
+.brand-special {
+  background-color: pink;
+  color: gray;
+}
+
 .test {
   color: red;
 }

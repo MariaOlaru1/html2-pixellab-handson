@@ -32,27 +32,21 @@ ul a {
 ul a:active {
   color: purple;
 }
-
-ul a {
-  text-decoration: none;
-}
 ul a:visited {
   color: green;
-}
-
-ol a:hover {
-  color: magenta;
 }
 
 ol a {
   text-decoration: none;
 }
-ol a:active {
-  color: pink;
+ol a:hover {
+  color: magenta;
 }
-
 ol a:visited {
   color: lightcoral;
+}
+ol a:active {
+  color: pink;
 }
 
 /*# sourceMappingURL=style.css.map */

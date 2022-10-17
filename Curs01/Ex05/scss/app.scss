@@ -39,12 +39,7 @@ ul {
     &:active {
       color: purple;
     }
-  }
-}
 
-ul {
-  a {
-    text-decoration: none;
     &:visited {
       color: green;
     }
@@ -53,25 +48,17 @@ ul {
 
 ol {
   a {
+    text-decoration: none;
     &:hover {
       color: magenta;
     }
-  }
-}
 
-ol {
-  a {
-    text-decoration: none;
-    &:active {
-      color: pink;
-    }
-  }
-}
-
-ol {
-  a {
     &:visited {
       color: lightcoral;
+    }
+
+    &:active {
+      color: pink;
     }
   }
 }
